@@ -1,4 +1,4 @@
-import { FiMail, FiLinkedin, FiGithub } from 'react-icons/fi';
+import { FiMail, FiLinkedin } from 'react-icons/fi';
 import { TextReveal, FadeIn } from '../components/TextReveal';
 
 export default function Contact() {

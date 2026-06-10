@@ -5,12 +5,6 @@ import { TextReveal, FadeIn } from '../components/TextReveal';
 
 gsap.registerPlugin(ScrollTrigger);
 
-const stats = [
-  { number: '7+', label: 'Live Apps Deployed' },
-  { number: '3+', label: 'Years Experience' },
-  { number: '2', label: 'Govt Organizations' },
-];
-
 export default function About() {
   const sectionRef = useRef<HTMLElement>(null);
 
