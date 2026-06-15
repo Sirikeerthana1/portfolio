@@ -1,4 +1,6 @@
 import { FiMail, FiLinkedin } from 'react-icons/fi';
+
+
 import { TextReveal, FadeIn } from '../components/TextReveal';
 
 export default function Contact() {
@@ -71,7 +73,7 @@ export default function Contact() {
 
           <FadeIn delay={0.5}>
             <a
-              href="mailto:siri.keerthana@email.com"
+              href="mailto:sirikeerthana.j@email.com"
               style={{
                 display: 'inline-block',
                 marginTop: 'var(--space-lg)',
@@ -114,9 +116,9 @@ export default function Contact() {
               }}
             >
               {[
-                { icon: FiMail, label: 'Email', href: 'mailto:siri.keerthana@email.com' },
-                { icon: FiLinkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/siri-keerthana' },
-           //     { icon: FiGithub, label: 'GitHub', href: 'https://github.com/siri-keerthana' },
+                { icon: FiMail, label: 'Email', href: 'mailto:sirikeerthana.j@email.com' },
+                { icon: FiLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/siri-keerthana-65b313212/' },
+           //     { icon: FiGithub, label: 'GitHub', href: 'https://github.com/Sirikeerthana1' },
               ].map((item, i) => (
                 <a
                   key={i}
@@ -175,7 +177,7 @@ export default function Contact() {
             letterSpacing: '0.04em',
           }}
         >
-          &copy; 2025 Siri Keerthana Janapamala. Built with care.
+          &copy; 2025 Siri Keerthana. Built with care.
         </p>
         <div
           style={{
